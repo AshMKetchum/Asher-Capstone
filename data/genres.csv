@@ -1,0 +1,51 @@
+,genre_description,genre_id,genre_name,genre_image
+0,,1,Action,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+1,,2,Strategy,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+2,,3,Sports,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+3,"<p>This is typically going to apply to games that are adventure games in the ""traditional"" sense, meaning games such as Monkey Island, Maniac Mansion, Space Quest, Neuromancer, and Shadowgate.</p>",4,Adventure,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+4,,5,Role-Playing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+5,"<p>The reason we call this ""Driving/Racing"" instead of just ""Driving"" is that non-vehicle-based racing games, such as Mad Dash Racing and Sonic R, still apply to this category.</p>",6,Driving/Racing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+6,,7,Simulation,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+7,,8,Educational,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+8,"<p>With the potentially-lone exception of WWF Wrestlemania: The Arcade Game, wrestling games are NOT fighting games.    Games that break out of the standard one-on-one format, such as Power Stone or Super Smash Bros., still technically qualify for the fighting genre.</p>",9,Fighting,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+9,,10,Wrestling,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+10,"<p>Until someone comes up with a better idea, third-person shooters such as Gears of War and kill.switch fall into this category.</p>",11,Shooter,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+11,,12,Real-Time Strategy,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+12,,13,Card Game,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+13,,14,Trivia/Board Game,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+14,,15,Compilation,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+15,"<p>Truly-massive only, please, no instanced free online games like Guild Wars.</p>",16,MMORPG,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+16,,17,Minigame Collection,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+17,,18,Puzzle,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+18,"<p>Though this is primarily here for games like Rock Band and Dance Dance Revolution, music creation products such as MTV Music Generator and Beaterator fit into this category, as well.</p>",19,Music/Rhythm,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+19,,20,Boxing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+20,"<p>Note that we really mean ""American football"" by this, so please file your footy games under ""Soccer."" Also, futuristic takes on the sport, such as Cyberball, or other specialized styles, like Mutant League Football, still apply to this genre.</p>",21,Football,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+21,,22,Basketball,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+22,,23,Skateboarding,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+23,,24,Flight Simulator,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+24,,25,Tennis,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+25,"<p>Any form of pool-like table game, from snooker to eight-ball, counts here. Futuristic games such as Lunar Pool also qualify, though be sure to apply the appropriate sci-fi theme to such products.</p>",26,Billiards,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+26,,27,Fishing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+27,,28,Golf,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+28,,29,Bowling,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+29,<p>Virtual pinball as well as actual pinball machines are welcome here.</p>,30,Pinball,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+30,"<p>Despite their lack of a joystick, touch-screen-enabled platforms also have games that fit this category.</p>",31,Dual-Joystick Shooter,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+31,"<p>Though thematically similar, third-person shooters such as Gears of War should not be tagged as First-Person Shooter. Games that pull out of the perspective on occasion, such as Quantum of Solace, are fine, though.</p>",32,First-Person Shooter,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+32,,33,Snowboarding/Skiing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+33,"<p>Futuristic baseball, such as Base Wars, still counts for this genre, though you should also be sure to apply the sci-fi theme to such games.</p>",34,Baseball,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+34,,35,Light-Gun Shooter,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+35,"<p>There is a leaflet bearing a genre description here.    - READ DESCRIPTION    The leaflet reads: ""The text adventure sub-genre applies to text-only games. Games with text-based entry and graphical elements should be filed under the Adventure genre.""</p>",36,Text Adventure,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+36,"<p>Games with character building and other RPG-light elements still qualify for this genre.    Modern character action games such as Devil May Cry, however, belong in Action.</p>",37,Brawler,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+37,,38,Vehicular Combat,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+38,,39,Hockey,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+39,,40,Soccer,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+40,,41,Platformer,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+41,,42,Track & Field,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+42,<p>- Mission-based open-world games such as the Grand Theft Auto series.</p>,43,Action-Adventure,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+43,"<p>This is for games specifically designed and sold for the purpose of fitness, such as Wii Fit and Your Shape. Games that happen to have basic ""workout"" modes, like Dance Dance Revolution and Dance Central, do not apply.</p>",44,Fitness,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+44,<p>Power-up-enabled games such as Arkanoid still qualify for this category.</p>,45,Block-Breaking,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+45,,46,Cricket,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+46,,47,Surfing,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+47,"<p>Modern takes on the classic form, such as Einhander, completely fit into this sub-genre.</p>",48,Shoot 'Em Up,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+48,,49,Gambling,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
+49,,50,MOBA,https://www.giantbomb.com/a/uploads/original/11/110673/3026329-gb_default-16_9.png
