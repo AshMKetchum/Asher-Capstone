@@ -2,7 +2,7 @@
 
 
 ## Table of Contents
-* [Power BI Dashboard](#Power-BI-dashboard)
+* [Canva Dashboard](#Canva-dashboard)
 * [Motivation](#motivation)
 * [Question](#Data-Question)
 * [Normalizing the Data](#normaling-the-data)
@@ -11,33 +11,28 @@
 * [Data Sources](#sources)
 * [Conclusion](#conclusion)
 
-## Power BI Dashboard:
-Link:
+## Canva Dashboard:
+Link: https://www.canva.com/design/DAGwicSYNlQ/c4peS2KBP7OJMsSzDICEyg/edit
 
 ## Motivation:
-My goal with this project is to have a fun and unique insight into what influences a users perception of a game and the console. These insights will then be presented to the game development leads for the new Next Generation Xbox with the goal being to influence the strategic direction of game development pre-release. 
+Video game culture has changed many times over in my lifetime. From platformers and RPGs, to first person shooters, to online competition, it seems we are nearing the limit of creative and design abilities, so what comes next? This analysis hopes to provide insights for the new Xbox release coming in 2027, Next Generation Xbox. Specifically, the goal to provide a recommendation for a game-release that can increase market share.
 
 Factors to be Analyzed Include:
-- Original release vs sequel
 - Genre
-- Critic reviews
-- Difference between expected release date and the actual release date
-- Company i.e. Nintendo, PlayStation, etc
-- Primary console the game was intended for and/or released on
-- Number of consoles sold
-- Number of platforms available to be played on
-- Astrological sign of the main character.
+- Critic and User reviews
+- Console
+- Sales by Region
+- Publisher
+- Year of Release
 
 ## Data Question:
-What factors consciously or subconsciously affect users perception of a game? I have chosen to look at a select 19 platforms released between 1989 and 2025.
+What style of game should Xbox develop and market as a headliner for the new Next Generation Xbox, in order to increase market share?
 
 ## Normalizing the Data
-The datasets I utilized were initially pulled in full, unless possible to filter on platformid. The 19 platforms were selected based on popularity and brand_name, as well as to provide a picture of these trends over multiple decades. Once the full data sets were brought in, a list of games is compiled primarily utilizing game ids of the most reviewed games as well as the highest and lowest average star review. Additionally studys on consoles for average star rating of total games. The list of games previously mentioned allows the game id to be called which includes genre ids, allowing a look at user reviews by game based on genre.
+The datasets I utilized were initially pulled in full, unless possible to filter on platformid. Every game's data across 19 consoles (selected based on popularity and brand_name) was drawn. Unfortunately, this process took multiple days, and it was not until after that I realized pulling the review data from giantbomb would take far too long, as it would not allow multiple game_ids to be searched for at a time, thus returning far fewer reviews per call than would have been necessary. In order to supplement the data from giantbomb with reviews, a datasource from Kaggle titled Video Game Sales with Ratings was used. Because of this, review data is only available through 2016.
 
 ## Problems and Hurdles
-The largest issue so far is extracting the data, due to the limitations of the API. It allows for 200 calls to each id per hour, and limits the results of each call to a max of 100. This means 20000 is the max results per hour. This is a doable process, but involves a lot of additional time dedicated to waiting for the next hour to draw results, and quite specific code.
-
-The other slight challenge is a lack of unique ids to link on. While there are a lot of datasets with unique ids, they often do not join in with the games or platforms id. The factors listed under “Data Question” all appear accessible to analyze, until the data is retrieved it will be difficult to know for sure.
+The largest challenge by far was realizing the limitations in the API. My goal in the beginning was to include multiple other factors, like max and min players, whether it's a sequel or an original, whether the character was popularized before or not, the astrological sign of main characters, etc. It was just too difficult and time consuming to utilize the game_ids to draw this information. In hinesight, it may have been a good idea to, early on in the process, have searched for a different API and/or drastically reduced the number of game ids used.
 
 ## Technologies Used
 1) Python / pandas - for exploration, normalizing and aggregation of the dataset
@@ -50,8 +45,11 @@ The other slight challenge is a lack of unique ids to link on. While there are a
 ## Data Sources
 To answer the above questions I used the following sources to collect datasets for my analysis
 
-1) API designed for developers and analysts who are interested in all things gaming.
-https://www.giantbomb.com/api/
+Primary: https://www.giantbomb.com/api/
+API designed for developers and analysts who are interested in all things gaming.
+
+Supplementary: https://www.kaggle.com/datasets/jahnavipaliwal/video-game-reviews-and-ratings?resource=download
+Dataset created by Jahnavi Paliwal using data drawn from Metacritic and VGChartz
 
 ## Conclusion
-Unknown
+Xbox should target expansion into the Japanese market once more through an exclusive headline RPG title, published and introduced to Japan through the well respected publisher Square Enix.
