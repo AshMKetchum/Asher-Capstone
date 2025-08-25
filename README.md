@@ -12,10 +12,10 @@
 * [Conclusion](#conclusion)
 
 ## Canva Dashboard:
-Link: https://www.canva.com/design/DAGwicSYNlQ/c4peS2KBP7OJMsSzDICEyg/edit
+Link: https://www.canva.com/design/DAGwicSYNlQ/c4peS2KBP7OJMsSzDICEyg/edit?utm_content=DAGwicSYNlQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Motivation:
-Video game culture has changed many times over in my lifetime. From platformers and RPGs, to first person shooters, to online competition, it seems we are nearing the limit of creative and design abilities, so what comes next? This analysis hopes to provide insights for the new Xbox release coming in 2027, Next Generation Xbox. Specifically, the goal to provide a recommendation for a game-release that can increase market share.
+Video game culture has changed many times over in my lifetime. From platformers and RPGs, to first person shooters, to online competition, it seems we are nearing the limit of creative and design abilities, so what comes next? This analysis hopes to provide insights for the "new Xbox release," Xbox Series X/S (released 2020). Specifically, the goal to provide a recommendation for a game-release that can increase market share.
 
 Factors to be Analyzed Include:
 - Genre
@@ -23,10 +23,10 @@ Factors to be Analyzed Include:
 - Console
 - Sales by Region
 - Publisher
-- Year of Release
+- Themes
 
 ## Data Question:
-What style of game should Xbox develop and market as a headliner for the new Next Generation Xbox, in order to increase market share?
+What style of game should Xbox develop and market as a headliner for the new Xbox Series X/S (2020), in order to increase market share?
 
 ## Normalizing the Data
 The datasets I utilized were initially pulled in full, unless possible to filter on platformid. Every game's data across 19 consoles (selected based on popularity and brand_name) was drawn. Unfortunately, this process took multiple days, and it was not until after that I realized pulling the review data from giantbomb would take far too long, as it would not allow multiple game_ids to be searched for at a time, thus returning far fewer reviews per call than would have been necessary. In order to supplement the data from giantbomb with reviews, a datasource from Kaggle titled Video Game Sales with Ratings was used. Because of this, review data is only available through 2016.
@@ -38,6 +38,7 @@ The largest challenge by far was realizing the limitations in the API. My goal i
 1) Python / pandas - for exploration, normalizing and aggregation of the dataset
 2) Python / matplotlib - for initial mapping and understanding of the data
 3) Python / requests, time, BeautifulSoup - for calling GiantBomb's API and extracting the data used
+4) Python / ast, rapidfuzz - for joining datasets
 4) Git - for version control
 5) Power BI - for generating consistently branded and entertaining visuals, as well as a dashboard to further inspect specific games and consoles.
 6) Canva - to create the presentation
@@ -52,4 +53,4 @@ Supplementary: https://www.kaggle.com/datasets/jahnavipaliwal/video-game-reviews
 Dataset created by Jahnavi Paliwal using data drawn from Metacritic and VGChartz
 
 ## Conclusion
-Xbox should target expansion into the Japanese market once more through an exclusive headline RPG title, published and introduced to Japan through the well respected publisher Square Enix.
+Xbox should seek partnership with the well known and respected publisher Squre Enix, based out of Japan. The focus should be an anime style RPG headline release, published by Square Enix, exclusively releasedon Xbox with the new Xbox Series X/S.
